@@ -202,7 +202,7 @@ header {
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     width: 100%;
     padding: 0px 80px;
-    margin: 5px 0px;
+    margin: 15px 0px;
     box-sizing: border-box;
 }
 .parameter {
@@ -221,7 +221,6 @@ header {
 /* NGO listing */
 
 .listing-section {
-    background-color: lightcoral;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,7 +235,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     align-content: center;
-    background-color: lightblue;
     width: 100%;
     border: 1px solid gray;
     border-radius: 8px;
@@ -251,7 +249,12 @@ header {
 }
 .ngo_logo {
     height: 80px;
-    width: 80px;;
+    width: 80px;
+    border-radius: 40px;
+}
+.ngo_parameter {
+    display: flex;
+    justify-content: center  ;
 }
 @media (max-width: 1440px) {
     .listing-section {
