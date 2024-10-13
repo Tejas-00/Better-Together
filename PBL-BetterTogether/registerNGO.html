@@ -13,8 +13,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="title">
-        Register your NGO
+    <header>
+        <div class="header-section">
+            <div class="logo-section">
+                <img src="icons/Site-favicon.webp" alt="logo" class="logo">
+            </div>
+            <div class="account-section">
+                <img src="icons/hamburger-menu.png" alt="menu" class="menu" style="height: 19px; width: 19px;">
+                <img src="icons/profile-image.png" alt="profile" class="icon-img" style="height: 36px; width: 36px;">
+            </div>
+        </div>
+        <div class="title">
+            Register your NGO
+        </div>
+    </header>
+
+    <div class="form-container">
+        <div class="basic-info">
+            <div style="font-size: 23px;">
+                I. Basic Contact Information
+            </div>
+            <div class="detail">
+                <div>
+                    Organization's Name
+                </div>
+                <input type="text" name="organisation-name" class="text-input" placeholder="Organisation" required>
+            </div>
+            <div class="detail">
+                <div>
+                    Key Person:
+                </div>
+                <input type="text" name="key-person" class="text-input" placeholder="Name" required>
+            </div>
+            <div class="detail">
+                <div>
+                    Full Address
+                </div>
+                <input type="text" name="organisation-address" class="text-input" placeholder="Address" required>
+            </div>
+            <div class="detail">
+                <div>
+                    Mobile Number
+                </div>
+                <input type="tel" name="organisation-mobile" class="text-input" placeholder="Mobile No." required>
+            </div>
+            <div class="detail">
+                <div>
+                    Email
+                </div>
+                <input type="email" name="organisation-eamil" class="text-input" placeholder="xyz@gmail.com" required>
+            </div>
+            <div class="detail">
+                <div>
+                    Website URL
+                </div>
+                <input type="url" name="organisation-site" class="text-input" placeholder="www.xyz.com" required>
+            </div>
+        </div>
+        <div class="business-info">
+            
+        </div>
     </div>
 </body>
 </html>

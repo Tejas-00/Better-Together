@@ -9,8 +9,8 @@ body {
     height: 2000px;
 }
 
-/* header */
 
+/* header */
 header {
     position: fixed;
     z-index: 100;
@@ -60,7 +60,6 @@ header {
 
 
 /* search */
-
 .search-container {
     display: flex;
     justify-content: center;
@@ -80,8 +79,8 @@ header {
     font-size: 12px;
 }
 
-/* search bar */
 
+/* search bar */
 .search-input {
     display: flex;
     justify-content: center;
@@ -105,7 +104,6 @@ header {
 
 
 /* search button */
-
 .search-button-class {
     display: flex;
     height: 48px;
@@ -140,7 +138,6 @@ header {
 
 
 /* helping icons */
-
 .icons-container {
     display: flex;
     flex-direction: row;
@@ -197,7 +194,6 @@ header {
 
 
 /* parameters */
-
 .parameters-container {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
@@ -220,7 +216,6 @@ header {
 }
 
 /* NGO listing */
-
 .listing-section {
     display: flex;
     flex-direction: column;
@@ -247,6 +242,7 @@ header {
 .ngo:hover {
     background-color: rgb(249, 249, 249);
     transition: all 0.2s ease-in-out;
+    border: 1px solid rgb(67, 64, 145);
     cursor: pointer;
 }
 .name-logo {

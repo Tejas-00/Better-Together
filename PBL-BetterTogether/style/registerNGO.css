@@ -3,14 +3,99 @@
 }
 body {
     display: flex;
-    justify-content: center;
-    margin: 30px 0px;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    height: 2000px;
 }
 
-.title {
+/* header */
+header {
+    position: fixed;
+    z-index: 100;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    font-size: 36px;
-    font-weight: bold;
-    text-decoration: underline;
+    width: 100%;
+    border-bottom: 2px solid rgb(240, 240, 240);
+    background-color: white;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.logo {
+    width: 100%;
+}
+.header-section .account-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 86px;
+    height: 60%;
+    margin-right: 80px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.header-section .account-section:hover {
+    box-shadow: 0px 2px 3px lightgray;
+    transition: all 0.15s ease-in-out;
+}
+.title {
+    font-size: 29px;
+    padding-bottom: 12px;
+}
+
+/* form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: 100%;
+    width: 95%;
+    padding: 15px 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+.basic-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    padding: 0px 16px;
+    box-sizing: border-box;
+    row-gap: 6px;
+    margin-top: 16px;
+}
+.text-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 2px 12px;
+    font-size: 17px;
+    padding-bottom: 5px;
 }
