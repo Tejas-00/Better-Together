@@ -26,52 +26,95 @@
         <div class="title">
             Register your NGO
         </div>
+        <div class="progress-bar-container">
+            <progress value="40" max="100" class="progress-bar"></progress>
+        </div>
     </header>
 
     <div class="form-container">
         <div class="basic-info">
             <div style="font-size: 23px;">
-                I. Basic Contact Information
+                I. BASIC CONTACT INFORMATION
             </div>
             <div class="detail">
-                <div>
-                    Organization's Name
-                </div>
+                <p>Organization's Name</p>
                 <input type="text" name="organisation-name" class="text-input" placeholder="Organisation" required>
             </div>
             <div class="detail">
-                <div>
-                    Key Person:
-                </div>
-                <input type="text" name="key-person" class="text-input" placeholder="Name" required>
+                <p>Your logo</p>
+                <input type="file">
             </div>
             <div class="detail">
-                <div>
-                    Full Address
-                </div>
+                <p>Your area of Specialisation in which you provide services (category)</p>
+                <input type="text" class="text-input" placeholder="Animals">
+            </div>
+            <div class="detail">
+                <p>Describe your NGO in brief (50-150 words)</p>
+                <input type="text" class="text-input" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quas, minus aspernatur ab nesciunt recusandae libero nobis nemo at quo quod animi sequi excepturi blanditiis. Deserunt nostrum aliquam provident mollitia quis modi tenetur esse facere laudantium! Quibusdam asperiores quo, odit quas molestiae mollitia, dignissimos quidem animi commodi corporis, nemo soluta!">
+            </div>
+            <div class="detail">
+                <p>Full Address</p>
                 <input type="text" name="organisation-address" class="text-input" placeholder="Address" required>
             </div>
             <div class="detail">
-                <div>
-                    Mobile Number
-                </div>
+                <p>Mobile number</p>
                 <input type="tel" name="organisation-mobile" class="text-input" placeholder="Mobile No." required>
             </div>
             <div class="detail">
-                <div>
-                    Email
-                </div>
+                <p>Key Person</p>
+                <input type="text" name="key-person" class="text-input" placeholder="Name" required>
+            </div>
+            <div class="detail">
+                <p>Email</p>
                 <input type="email" name="organisation-eamil" class="text-input" placeholder="xyz@gmail.com" required>
             </div>
             <div class="detail">
-                <div>
-                    Website URL
-                </div>
+                <p>Website URL</p>
                 <input type="url" name="organisation-site" class="text-input" placeholder="www.xyz.com" required>
             </div>
         </div>
-        <div class="business-info">
-            
+        <div style="font-size: 23px; margin-top: 23px;">
+            II. BUSINESS DETAILS
+            <div class="detail">
+                <p>Is your firm registered with the government?</p>
+                <div class="radio-buttons">
+                    <input type="radio" id="yes">
+                    <label for="yes">yes</label>
+                    <input type="radio" id="no">
+                    <label for="no">no</label>
+                </div>
+            </div>
+            <div class="detail">
+                <p>Staff Details</p>
+                <table class="staff-table">
+                    <tr>
+                      <th>Permanent</th>
+                      <th>Full-time</th>
+                      <th>Part-time</th>
+                      <th>Professionals</th>
+                      <th>Required</th>
+                    </tr>
+                    <tr>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="detail">
+                <p>Areas in which your staff's capacity needs to be developed.</p>
+                <input type="text" class="text-input" placeholder="tech">
+            </div>
+            <div class="detail">
+                <p>How long have you been in this field?</p>
+                <input type="text" class="text-input" placeholder="5 years">
+            </div>
+            <div class="detail">
+                <p>What is your current Anuual turnover?</p>
+                <input type="number" class="text-input" placeholder="200000/-">
+            </div>
         </div>
     </div>
 </body>
