@@ -6,9 +6,7 @@ body {
     margin: 0;
     align-items: center;
     flex-direction: column;
-    height: 2000px;
 }
-
 
 /* header */
 header {
@@ -49,6 +47,7 @@ header {
     width: 86px;
     height: 60%;
     margin-right: 80px;
+    padding-left: 10px;
     border: 1px solid lightgray;
     border-radius: 25px;
     cursor: pointer;
@@ -276,4 +275,31 @@ header {
     .listing-section {
         padding: 0px 40px;
     }
+}
+
+footer {
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+}
+.anchor-tag {
+    color: white;
+    text-decoration: none;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+    column-gap: 85px;
+    cursor: pointer;
+}
+.social-media-icon {
+    width: 24px;
 }
